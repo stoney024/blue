@@ -14,6 +14,10 @@ or
 
 {{ url }}/api/update
 
+Information about the data status, returns last update timestamp: 
+{{ url }}/api/info
+
+
 The test implementation is using mySql database, for performance improvement postgre db could be used, mass upsert is not working properly on mySql.
 
 
